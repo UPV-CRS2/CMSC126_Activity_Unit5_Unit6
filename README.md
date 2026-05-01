@@ -10,14 +10,15 @@ This project aims to replace the existing CRS with CRS 2.0. The following sectio
 - [System Summary](#system-summary)
 - [Tech Stack](#tech-stack)
 - [Hosting](#hosting)
+- [System Design](#system-design)
 - [Mockups](#mockups)
 
 ---
 
 ## System Summary
+**CRS 2.0** is a web-based student registration and information system designed to replace the existing CRS used by the University of the Philippines Visayas. The system aims to provide a modern and user-friendly experience for students, faculty, staff, and administrators by updating university processes such as access to student information. It still supports the core functionalities of the original website, with added functionalities such as document access, announcements, calendar viewing, student information management, teacher evaluation, enrollment tracking, and more.
 
 ### Team Members
-- Kiano Michiko Soliva
 - Gabrielle Sumergido
 - Christie Jude Tarre
 - Claire Dane Vincoy
@@ -25,6 +26,11 @@ This project aims to replace the existing CRS with CRS 2.0. The following sectio
 ---
 
 ## Tech Stack
+
+- Frontend: ReactJS
+- Backend: Spring Boot (Java)
+- Database: PostgreSQL
+
 
 ### Frontend Tools
 
@@ -74,6 +80,14 @@ Elastic Load Balancer (Traffic Distribution)
   
 - **Audit & Recovery**: Amazon S3 stores daily encrypted snapshots of the database, together with CloudWatch to monitor system errors in real-time. This allows the university to restore the entire system to a specific point in time in the event of a critical error and faster backtracking in locating the cause of it.
 
+
+---
+
+## System Design
+
+### Sitemap
+
+### Flowchart
 
 ---
 
