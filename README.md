@@ -16,7 +16,12 @@ This project aims to replace the existing CRS with CRS 2.0. The following sectio
 ---
 
 ## System Summary
-**CRS 2.0** is a web-based student registration and information system designed to replace the existing CRS used by the University of the Philippines Visayas. The system aims to provide a modern and user-friendly experience for students, faculty, staff, and administrators by updating university processes such as access to student information. It still supports the core functionalities of the original website, with added functionalities such as document access, announcements, calendar viewing, student information management, teacher evaluation, enrollment tracking, and more.
+
+**CRS 2.0 aims to reimagine the student registration experience at UPV.**
+
+**CRS 2.0** is a web-based student registration and information system designed to replace the existing CRS used by the University of the Philippines Visayas. It provides a modern and user-friendly experience for students, faculty, staff, and administrators by improving university processes such as access to student information. 
+
+The system retains the core functionalities of the original website, with added functionalities such as document access, announcements, calendar viewing, student information management, teacher evaluation, enrollment tracking, and more.
 
 ### Team Members
 - Gabrielle Sumergido
@@ -129,17 +134,45 @@ Elastic Load Balancer (Traffic Distribution)
 ## System Design
 
 ### Sitemap
+![Sitemap](assets/sitemap.png)
 
-### Flowchart
+Shows the overall structure of the system, including main pages and navigation paths.
+
+### Transaction Flow
+![Transaction Flow](assets/flowchart.png)
+
+Illustrates the step-by-step process of course enlistment, from login to confirmation.
 
 ---
 
 ## Mockups
 
 ### Homepage
+![Homepage](assets/homepage.png)
 
-### Student Page
+Landing page for general users. Provides access to announcements, forms, and login.
+
+### Student Dashboard
+![Dashboard](assets/dashboard.png)
+
+Provides an overview of academic status, units, and quick actions for enrollment.
+
+### Student Profile Page
+![Student Page](assets/student_page.png)
+
+Displays personal information, academic summary, and student records.
 
 ### Schedule / Conflict Check Screen
+![Schedule](assets/schedule.png)
 
-### Additional Page
+Displays the weekly schedule and detects conflicts before validation.
+
+### Course Search
+![Course Search](assets/course_search.png)
+
+Allows users to browse, filter, and select courses for enlistment.
+
+### Enlistment Page
+![Enlistment](assets/enlistment.png)
+
+Manages selected courses and supports validation and confirmation of enlistment.
