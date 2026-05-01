@@ -1,5 +1,9 @@
 # UPV CRS 2.0
-## CMSC126 Activity: Unit 5–6
+
+This project aims to replace the existing CRS with CRS 2.0. The following section outlines the technical details of the proposed web-based system, including its architecture, technology stack, and deployment strategy.
+
+**Course:** CMSC 126 Activity: Unit 5-6
+
 ---
 
 ## Table of Contents
