@@ -34,11 +34,54 @@ This project aims to replace the existing CRS with CRS 2.0. The following sectio
 
 ### Frontend Tools
 
+The frontend of the CRS 2.0 will be developed using React, a component-based JavaScript library suitable for building multi-functional and data-driven web applications through its efficient rendering and reusable UI components. 
+
+**Key Advantages**
+- **Component-Based Architecture**: UI elements such as login forms and student dashboards can be developed as reusable and independent components to improve maintainability and scalability.
+  
+- **Virtual DOM**: It updates only the necessary parts of the user interface instead of reloading the entire page, improving performance during high-traffic such as enrollment period.
+  
+- **Large Ecosystem**: React provides a wide range of tools and libraries for building scalable and interactive web applications.
+  
+- **TypeScript Support**: It enhances reliability by catching errors at compile time rather than at runtime.
+  
+- **Seamless API Integration**: React interacts with the Spring Boot backend framework through RESTful APIs, enabling the frontend to retrieve and use backend services for data exchange. 
+
 ### Backend Tools
+
+The backend of the CRS 2.0 will be implemented using Java with Spring Boot, a framework which simplifies the development process by reducing manual configuration in Java-based web applications. This allows the team to focus on building core system features rather than managing infrastructure and repetitive standard code. 
+
+**Key Advantages**
+- **Auto-Configuration**: This reduces manual setup and configuration errors through auto-configuration, allowing more focus on developing core functionalities.
+  
+- **Embedded Server**: It uses an embedded Tomcat server, which reduces the need for separate web server installation.
+
+- **Spring Data JPA**: It simplifies the database interactions by managing relationships between entities.
+
+- **Spring Security**: It ensures strict access control over sensitive data by implementing authentication and authorization mechanisms.
+
+- **Production-Ready**: Spring Boot includes features such as health checks, logging, and error handling that help monitor and maintain web applications.
 
 ### Database
 
-### Other Tools (Optional)
+The system will use **PostgreSQL** as its primary relational database. PostgreSQL is appropriate for academic data management because of its reliability and ability to handle complex queries. Moreover, it has strong ACID (Atomicity, Consistency, Isolation, and Durability) compliance, ensuring integrity and consistency of data throughout all transactions. 
+
+**Key Advantages**
+- **ACID Compliance**: It ensures that all transactions are processed reliably, preventing data corruption even during system failures.
+
+- **Complex Query Support**: It efficiently handles advanced queries such as retrieving student records, class availability, and enrollment status across multiple tables. 
+
+- **Cost-Free**: It is open-source and free to use, making it a practical choice for the team.
+
+- **Security**: It provides built-in security features such as role-based access control and row-level security. It ensures that sensitive data is only accessible to authorized users.
+
+- **Scalability**: It supports large and growing datasets without performance degradation.
+
+### Other Tools
+
+- **Git / GitHub** is used for version control and team collaboration.
+
+- **Figma** is used for mockup creation and UI design. 
 
 ---
 
